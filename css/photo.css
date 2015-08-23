@@ -1,0 +1,33 @@
+div#wrapMenu{
+    width: 400px;
+    height: 100%;
+    background-color: #4A4A4A;
+    position: fixed;
+    top: 50px;
+    right: 0;
+    padding: 10px;
+}
+
+div#menuInner {
+    color: #ffffff;
+}
+
+div#menuInner p{
+    margin: 3px auto;
+    font-size:0.9em;
+}
+
+div#plan{
+    padding: 15px;
+}
+
+
+/*bootstrapの個別レイアウト設定*/
+.btn-group{
+    background-color: #fff;
+}
+
+.dropdown-menu{
+    min-width: 0px;
+}
+

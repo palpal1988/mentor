@@ -1,0 +1,62 @@
+.configTitle{
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+#configList{
+    list-style: none;
+    margin-top: 20px;
+    padding: 0;
+}
+
+#configList>li{
+    border-bottom: 1px solid #333;
+    margin: 0px auto;
+    padding-top: 10px;
+    height: 40px;
+    cursor: pointer;
+}
+
+#configMenu{
+    margin-top:20px;
+}
+
+#config1{
+    padding: 15px;
+}
+#config2{
+    padding: 15px;
+}
+
+table{
+    margin-top:15px;
+}
+
+.table>tbody>tr>td{
+    vertical-align: middle;
+}
+
+.btn {
+    margin: 0;
+}
+
+#shinName{
+    width: 100px;
+}
+
+label.menuLabel{
+    margin:0 15px 0 0;
+}
+
+.checkbox-inline{
+    padding-left:0;
+}
+
+#projectInfoForm{
+    margin-top:15px;
+}
+
+
+
+
+

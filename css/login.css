@@ -1,0 +1,46 @@
+.container {
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container-fluid {
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    margin-right: -30px;
+    margin-left: -30px;
+}
+
+#loginForm{
+    padding: 20px;
+}
+
+div#app_logo {
+    float: left;
+}
+
+input.form-control {
+    margin: 13px auto;
+}
+
+#toplogo{
+    margin-top: 120px;
+}
+
+#loginArea{
+    margin-top: 15px;
+}
+
+.checkbox{
+    margin:0 0;
+}
+
+.form-group{
+    margin-bottom:0;
+}

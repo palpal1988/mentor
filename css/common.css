@@ -1,0 +1,182 @@
+body {
+    background-color: #fff;
+}
+
+.navbar-inverse {
+    background-color: #034D6F !important;
+    z-index: 1000;
+}
+
+/*.container {*/
+    /*padding-right: 40px;*/
+    /*padding-left: 40px;*/
+    /*margin-right: auto;*/
+    /*margin-left: auto;*/
+/*}*/
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container-fluid {
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    margin-right: -30px;
+    margin-left: -30px;
+}
+
+
+.navbar-brand {
+    background: url("../img/photoruction_icon.png") no-repeat left center;
+    -webkit-background-size: 40px;
+    background-size: 40px;
+    padding-left: 50px;
+}
+
+/*フォームの左側に少しだけ余白を作る*/
+fieldset[disabled] .form-control, .form-control, fieldset[disabled] .form-control:focus, .form-control:focus, fieldset[disabled] .form-control.focus, .form-control.focus {
+    padding-left: 8px !important;
+}
+
+
+/*--------------------datepickerの見た目変更------------------------*/
+
+.ui-widget-header {
+    border: 1px solid white;
+    background: #211b0d;
+    color: white;
+    font-weight: bold;
+}
+
+.ui-widget-header a {
+    color: white;
+}
+
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default {
+    border: 1px solid white;
+    background: #f4f4f4;
+    font-weight: normal;
+    color: black;
+}
+
+.ui-state-default a,
+.ui-state-default a:link,
+.ui-state-default a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.ui-state-hover,
+.ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-hover,
+.ui-state-focus,
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus {
+    border: 1px solid #58b069;
+    background: white;
+    font-weight: normal;
+    color: #169586;
+}
+
+.ui-state-hover a,
+.ui-state-hover a:hover,
+.ui-state-hover a:link,
+.ui-state-hover a:visited {
+    color: #169586;
+    text-decoration: none;
+}
+
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active {
+    border: 1px solid #169586;
+    background: #ddedda;
+    font-weight: normal;
+    color: black;
+}
+
+.ui-state-active a,
+.ui-state-active a:link,
+.ui-state-active a:visited {
+    color: #169586;
+    text-decoration: none;
+}
+
+.ui-icon {
+    cursor: pointer;
+}
+
+.ui-state-hover .ui-icon,
+.ui-state-focus .ui-icon {
+    background-image: url("images/ui-icons_ffffff_256x240.png");
+}
+
+.ui-datepicker .ui-datepicker-prev-hover,
+.ui-datepicker .ui-datepicker-next-hover {
+    background: #211b0d;
+    border: 0px;
+}
+
+/*--------------------コンボボックス関連------------------------*/
+
+/*コンボボックスがモーダルウィンドウの下に隠れてしまう問題を回避*/
+.ui-autocomplete {
+    z-index: 1500;
+    background-color: #fff;
+    max-height: 300px;
+    overflow: scroll;
+}
+
+/* リストの枠の設定 */
+.ui-widget-content {
+    border: 1px solid #bebebe !important;
+    background: #ffffff !important;
+    font-size: 1.0em;
+}
+
+/* リスト内のデータのリンクカラー*/
+.ui-widget-content a {
+    color: #333 !important;
+}
+
+/* リスト内のデータフォーカス時のカラー */
+.ui-state-focus {
+    border: 1px solid #169586 !important;
+    background: #ddedda !important;
+    font-weight: normal !important;
+    color: #333 !important;
+}
+
+/*コンボボックス*/
+.custom-combobox {
+    position: relative;
+    display: block;
+}
+
+.custom-combobox > a {
+    background-image: url(../img/icon/triangle.png);
+}
+
+.custom-combobox-toggle {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin-left: 0px;
+    padding: 0;
+    width: 16px;
+    height: 31px;
+    /* support: IE7 */
+    /**height: 1.7em;*/
+    *top: 0.1em;
+}

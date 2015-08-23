@@ -1,0 +1,212 @@
+.iconBtn {
+    top: 6px;
+    cursor: pointer;
+    font-size: 1.5em;
+    margin: 0 5px;
+    padding-top: 10px;
+}
+
+#photoinspectorBtn {
+    width: 227px;
+}
+
+.inspectorDes{
+    margin-top: 30px;
+}
+
+#dl-menu {
+    height: 800px;
+    overflow: scroll;
+}
+
+div#searchMenu {
+    display: inline-block;
+    margin-left:20px;
+    padding-right: 2px;
+}
+
+#searchForm{
+    width: 300px;
+}
+
+div.selectedNeed {
+    display: inline-block;
+}
+
+div.selectedNeed > .iconBtn {
+    opacity: 0.3;
+    cursor: default;
+}
+
+div#photoList {
+    margin-top: 10px;
+    height: 800px;
+    overflow: scroll;
+}
+
+/*編集モーダルウインドウの幅変更*/
+#editPhoto > .modal-dialog,
+#editPhoto > .modal-content{
+    width: 900px;
+}
+
+.form-horizontal{
+    margin-top: 30px;
+}
+
+div.editForm {
+    margin: 10px auto;
+}
+
+div.selectWrapper {
+    margin: 10px;
+}
+
+/*チェックボックスをクリックした時のエフェクトがずれているため調整*/
+.checkbox .checkbox-material:before {
+    top: -7px;
+}
+
+.folderCheckBoxWrapper{
+    margin: 0;
+    display: inline-block;
+}
+
+/*写真の上に重なっているチェックボックスの背景をしろにする*/
+span.check {
+    background-color: white;
+}
+
+
+/*モーダルウインドウの幅変更*/
+#newAlbumWindow > .modal-dialog,
+#newAlbumWindow > .modal-content{
+    width: 900px;
+}
+
+
+/*type1・・・写真の大きさは中。情報もいくつか入っている*/
+/*type2・・・写真の大きさは大。情報はタイトルのみ*/
+/*type3・・・写真の大きさは小。情報が最も入っている*/
+/*------------------------type1------------------------*/
+div.photoFrame_1 {
+    margin: 5px;
+    width: 211px;
+    cursor: pointer;
+    background-color: #fff;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+div.photoFrame_1:hover {
+    background-color: #39a4dd;
+}
+
+div.photoImg_1 {
+    padding-top: 15px;
+}
+
+div.photoDescription_1 {
+    margin-top: 5px;
+}
+
+div.photoDescription_1 p {
+    display: block;
+    width: 181px;
+    margin: 0;
+    font-size: 0.7em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/*チェックボックスの位置調整用*/
+.photoFrame_1 > .checkboxArea {
+    position: absolute;
+    top: 15px;
+    left: 19px;
+
+}
+
+/*------------------------type2------------------------*/
+div.photoFrame_2 {
+    margin: 5px;
+    /*border: 1px solid #333;*/
+    width: 285px;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+div.photoFrame_2:hover {
+    background-color: #afd9ee;
+}
+
+div.photoImg_2 img {
+    width: 285px;
+}
+
+div.photoDescription_2 {
+    margin-top: 5px;
+}
+
+div.photoDescription_2 p {
+    width: 265px;
+    margin: 0;
+    font-size: 0.7em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.photoFrame_2 > .checkboxArea {
+    position: absolute;
+    top: 15px;
+    left: 19px;
+}
+
+/*------------------------type2------------------------*/
+div.photoFrame_3 {
+    margin: 5px 0;
+    /*border: 1px solid #333;*/
+    width: 880px;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+div.photoFrame_3:hover {
+    background-color: #afd9ee;
+}
+
+div.photoImg_3 img {
+    margin-left:5px;
+    padding: 4px 0;
+    display: block;
+    width: 55px;
+    float: left;
+}
+
+div.photoDescription_3 {
+    float: left;
+    margin:5px 5px;
+}
+
+div.photoDescription_3 p {
+    width: 236px;
+    margin: 0;
+    font-size: 0.7em;
+    overflow: hidden;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.photoFrame_3 > .checkboxArea{
+    float: left;
+    margin-top:20px;
+}
+
+
+
+
+
+

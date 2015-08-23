@@ -1,0 +1,51 @@
+.iconBtn{
+    top:6px;
+    cursor: pointer;
+    font-size: 1.5em;
+    margin:0 5px;
+}
+
+#addNewAlbum{
+    margin-top:10px;
+}
+
+#btnMenu{
+    /*margin-left:55px;*/
+    display: inline-block;
+}
+
+.albumTitle{
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+#albumList{
+    list-style: none;
+    padding: 0px;
+    margin-top:20px;
+}
+
+#albumList>li{
+    border-bottom: 1px solid #333;
+    padding-top: 10px;
+    height: 40px;
+    cursor: pointer;
+}
+
+/*モーダルウインドウの幅変更*/
+#newAlbumWindow > .modal-dialog,
+#newAlbumWindow > .modal-content{
+    width: 900px;
+}
+
+.bottomBtn{
+    margin-top:10px;
+}
+
+
+
+
+
+
+
+

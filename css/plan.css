@@ -1,0 +1,74 @@
+.iconBtn{
+    top:10px;
+    cursor: pointer;
+    font-size: 1.5em;
+    margin:0 5px;
+}
+
+#addNewPlan{
+    margin-top:10px;
+}
+
+#btnMenu{
+    margin-left:55px;
+    display: inline-block;
+}
+
+.planTitle{
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+#planList{
+    list-style: none;
+    margin-top: 20px;
+    padding: 0;
+}
+
+#planList>li{
+    border-bottom: 1px solid #333;
+    margin: 0px auto;
+    padding-top: 10px;
+    height: 40px;
+    cursor: pointer;
+}
+
+#planMenu{
+    margin-top:20px;
+}
+
+#drowarea{
+    width: 100%;
+    height: 500px;
+    border: 1px solid #333;
+    overflow: hidden;
+    margin-top:10px;
+}
+
+.btn {
+    margin: 0 10px 0 0;
+}
+
+#shinName{
+    width: 100px;
+}
+
+label.menuLabel{
+    margin:0 15px 0 0;
+}
+
+.checkbox-inline{
+    padding-left:0;
+}
+
+/*モーダルウインドウの幅変更*/
+#addPlanWindow > .modal-dialog,
+#addPlanWindow > .modal-content{
+    width: 900px;
+}
+
+
+
+
+
+
